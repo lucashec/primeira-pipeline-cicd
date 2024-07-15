@@ -6,7 +6,7 @@ on:
 jobs: 
   ci: 
    runs-on: ubuntu-latest
-    steps:
+  steps:
       - name: Checkout
         uses: actions/checkout@v4.1.7
       - name: Login to Docker Hub
